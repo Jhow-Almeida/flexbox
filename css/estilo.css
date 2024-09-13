@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    width: 900px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.blocoUm{
+    display: flex;
+    flex: 2;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    background-color: #777;
+}
+
+.blocoDois{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    background-color: #888;
+}
+
+.cabecalho{
+    display: flex;
+    flex: 1;
+    background-color: #bbb;
+}
+
+.artigos{
+    display: flex;
+    flex: 1;
+}
+
+.artigo{
+    display: flex;
+    flex: 1;
+    background-color: #aaa;
+}
+
+#artigo-cor{
+    background-color: #999;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.btn{
+    padding: 18px 36px;
+    border: 2px solid gray;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10%;
+}
+
+.btn a{
+    color: white;
+}
+
+#tabuleiro{
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0;
+}
+
+.quadrado{
+    width: 50px;
+    height: 50px;
+    background-color: #777;
+}
+
+.quadrado-cor{
+    background-color: #999;
+}
+
+.direcao{
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixa{
+    width: 200px;
+    background-color: #aaa;
+}
+
+.vh20{
+    height: 20vh;
+}
+
+.vh30{
+    height: 30vh;
+    background-color: #777;
+}
+
+.vh15{
+    height: 15vh;
+}
+
+.vh35{
+    height: 35vh;
+    background-color: #777;
+}
+
+.vh50{
+    height: 50vh;
+}
+
+#vh20-cor{
+    background-color: #777;
+}
