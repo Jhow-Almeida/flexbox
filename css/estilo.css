@@ -2,10 +2,6 @@
     margin: 0px;
 }
 
-body{
-    background-color: lightgray;
-}
-
 .container{
     display: flex;
     justify-content: center;
